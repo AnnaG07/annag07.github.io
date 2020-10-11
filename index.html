@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static "index.css" %}">
-    <title>{% block title %}{% endblock %}</title>
+    <title>Anastasia Garcia</title>
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
+    <div class="container">
+        <div class="header">
+            <span class="logo">Anastasia Garcia</span>
+            <ul class="menu">
+                <li><a href="https://github.com/AnnaG07">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/devaeg20/">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Python Web Developer / Programmer</h2>
+            <img src="{% static "images/profile_pic_6.8mp.jpg" %}" alt="Profile Picture">
+        </div>
+    </div>
 </body>
 </html>
